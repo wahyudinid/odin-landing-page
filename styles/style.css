@@ -6,9 +6,88 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 .head {
     background-color: #1f2937;
     color: white;
+    min-height: 500px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.second {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    padding-top: 20px;
+    gap: 500px;
+}
+
+.bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+
+.left, .right {
+    max-width: 400px;;
+}
+
+.title, .second, button {
+    padding: 10px;
+}
+
+.left {
+    flex-shrink: 3;
 }
