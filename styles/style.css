@@ -91,3 +91,10 @@ button {
 .left {
     flex-shrink: 3;
 }
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    flex: 1;
+    display: flex;
+}
