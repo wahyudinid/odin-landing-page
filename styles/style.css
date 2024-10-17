@@ -40,6 +40,7 @@ a {
 img {
     width: 500px;
     height: auto;
+    border: 2px white;
 }
 
 .title {
@@ -90,6 +91,17 @@ button {
 
 .left {
     flex-shrink: 3;
+}
+
+.card {
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.items {
+    display: flex;
+    gap: 10px;
 }
 
 .footer {
