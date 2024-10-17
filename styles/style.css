@@ -93,15 +93,40 @@ button {
     flex-shrink: 3;
 }
 
+.main {
+    text-align: center;
+    margin: 200px;
+}
+
 .card {
     display: flex;
-    margin-top: 100px;
-    
+    justify-content: center;
+    gap: 52px;
+}
+
+.img {
+    border: 2px solid black;
 }
 
 .items {
+    max-width: 200px;
+   
+}
+
+.quote {
+    background-color: grey;
+    height: 200px;
     display: flex;
-    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.sign {
+    margin: 200px;
+    padding: 50px;
+    background-color: #3882f6;
 }
 
 .footer {
