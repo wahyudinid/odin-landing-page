@@ -95,7 +95,13 @@ button {
 
 .main {
     text-align: center;
-    margin: 200px;
+    margin: 50px 0px 100px 0px;
+}
+
+.text2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -105,6 +111,7 @@ button {
 }
 
 .img {
+    width: 200px;
     border: 2px solid black;
 }
 
@@ -114,19 +121,73 @@ button {
 }
 
 .quote {
-    background-color: grey;
-    height: 200px;
+    background-color: #e5e7eb;
+    height: 300px;
+}
+
+.textquote, .author {
+    max-width: 1000px;
+    
+}
+
+.quote, .textquote {
     display: flex;
     text-align: center;
-    justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.textquote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
 }
 
 
-.sign {
-    margin: 200px;
-    padding: 50px;
+.author {
+   display: flex;
+   justify-content: flex-end;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
     background-color: #3882f6;
+    justify-content: center;
+    margin: 100px 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    color: white;
+}
+
+.t1 {
+    font-weight: 900;
+}
+
+.t2 {
+    font-weight: 300;
+}
+
+.btn {
+    border: 2px solid  white;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
 }
 
 .footer {
@@ -134,4 +195,7 @@ button {
     background-color: #1f2937;
     flex: 1;
     display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
 }
